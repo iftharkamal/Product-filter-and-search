@@ -32,6 +32,7 @@ body{
     color: #ffff;
     margin-top: 0.5em;
     border-radius: 5px;
+    cursor: pointer;
 }
 .button-value{
     border: 2px solid #6759ff;
@@ -66,4 +67,29 @@ body{
    max-width: 100%;
    object-fit: contain;
    height: 15em;
+}
+.container{
+    padding-top: 1em;
+    color: #110f29;
+}
+.container h5{
+    font-weight: 500;
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width:720px){
+    img{
+        max-width: 100%;
+        object-fit: contain;
+        height: 10em;
+    }
+    .card{
+        margin-top: 1em;
+        max-width: 10em;
+    }
+    #products{
+        grid-template-columns: auto auto;
+        grid-column-gap: 1em;
+    }
 }
